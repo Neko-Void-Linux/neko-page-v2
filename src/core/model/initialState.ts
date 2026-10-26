@@ -48,7 +48,7 @@ const articles: Array<{ name: string; document: InfoDocument }> = [
     document: {
       eyebrow: 'SESSION 01 / WELCOME',
       title: 'NEKO VOID',
-      body: 'Void Linux listo para explorar.',
+      body: 'Bienvenido al Vacío.',
       showProjectResources: true,
       bullets: [],
       controls: [
