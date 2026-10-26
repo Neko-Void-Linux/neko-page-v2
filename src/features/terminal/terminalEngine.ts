@@ -291,7 +291,7 @@ export const executeTerminalCommand = (
         : visible.join('  '),
     )
   }
-  if (name === 'whoami') return output('visitor')
+  if (name === 'whoami') return output('kyouko')
   if (name === 'date') return output(new Date().toLocaleString('es-ES'))
   if (name === 'workspace') return output(`${context.workspaceNumber}: ${context.workspaceName}`)
   if (name === 'echo') {
